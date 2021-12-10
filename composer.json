@@ -32,6 +32,9 @@
         "symfony/phpunit-bridge": "4.4.*",
         "contao/easy-coding-standard": "^3.0"
     },
+    "replace": {
+        "respinar/contao-jalalidate": "1.*"
+    },
     "autoload": {
         "psr-4": {
             "Respinar\\ContaoJalalidateBundle\\": "src/"
