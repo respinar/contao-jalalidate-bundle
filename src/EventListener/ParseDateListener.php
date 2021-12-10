@@ -18,7 +18,7 @@ class ParseDateListener
         // Modify or create your own formatted date …
 
         if ($GLOBALS['TL_LANGUAGE'] == 'fa') {
-			if ($intTstamp === null)
+			if ($timestamp === null)
 			{
 				$strDate = jDateTime::date($format);
 			}
