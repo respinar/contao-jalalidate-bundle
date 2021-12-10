@@ -1,0 +1,44 @@
+{
+    "name": "respinar/contao-jalalidate-bundle",
+    "description": "Jalal TimeDate Class for Contao",
+    "keywords": [
+        "contao",
+        "bundle",
+        "jalali",
+        "date"
+    ],
+    "type": "contao-bundle",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Hamid Abbaszadeh",
+            "email": "info@respinar.com",
+            "homepage": "https://respinar.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/respinar/contao-jalalidate-bundle/issues",
+        "source": "https://github.com/respinar/contao-jalalidate-bundle"
+    },
+    "require": {
+        "contao/core-bundle": "^4.9"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.3",
+        "contao/test-case": "^4.0",
+        "phpunit/phpunit": "^8.4",
+        "symfony/http-client": "4.4.*",
+        "symfony/phpunit-bridge": "4.4.*",
+        "contao/easy-coding-standard": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Respinar\\ContaoJalalidateBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "Respinar\\ContaoJalalidateBundle\\ContaoManager\\Plugin"
+    },
+    "version": "0.1.19"
+}
