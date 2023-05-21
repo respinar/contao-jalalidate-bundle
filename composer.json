@@ -1,14 +1,15 @@
 {
     "name": "respinar/contao-jalalidate-bundle",
-    "description": "Jalal TimeDate Class for Contao",
+    "description": "Jalali Date Class for Contao",
     "keywords": [
         "contao",
         "bundle",
         "jalali",
+        "persian",
         "date"
     ],
     "type": "contao-bundle",
-    "license": "GPL-3.0-or-later",
+    "license": "MIT",
     "authors": [
         {
             "name": "Hamid Abbaszadeh",
