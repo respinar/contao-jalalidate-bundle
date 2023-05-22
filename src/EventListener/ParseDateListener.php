@@ -15,22 +15,16 @@ class ParseDateListener
 {
     public function __invoke(string $formattedDate, string $format, ?int $timestamp): string
     {
-
         if ($GLOBALS['TL_LANGUAGE'] !== 'fa') {
             return $formattedDate;
         }
         
-        if ($timestamp === null)
-        {
+        if ($timestamp === null) {
             $strDate = jDateTime::date($format);
-        }
-        else
-        {
+        } else {
             $strDate = jDateTime::date($format, $timestamp);
-        }
-		
+        }	
 
-		return $strDate;
-        
+		return $strDate;        
     }
 }
