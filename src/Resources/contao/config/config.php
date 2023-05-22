@@ -12,6 +12,4 @@
 
 use Respinar\ContaoJalalidateBundle\EventListener\ParseDateListener;
 
-if (TL_MODE == 'FE') {
-    $GLOBALS['TL_HOOKS']['parseDate'][] = [ParseDateListener::class, '__invoke'];
-}
+$GLOBALS['TL_HOOKS']['parseDate'][] = [ParseDateListener::class, '__invoke'];
