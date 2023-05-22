@@ -9,6 +9,7 @@
         "date"
     ],
     "type": "contao-bundle",
+    "version": "0.2.3",
     "license": "MIT",
     "authors": [
         {
@@ -44,6 +45,5 @@
     },
     "extra": {
         "contao-manager-plugin": "Respinar\\ContaoJalalidateBundle\\ContaoManager\\Plugin"
-    },
-    "version": "0.2.2"
+    }
 }
