@@ -9,7 +9,6 @@
         "date"
     ],
     "type": "contao-bundle",
-    "version": "0.2.3",
     "license": "MIT",
     "authors": [
         {
